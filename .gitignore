@@ -1,0 +1,36 @@
+# EOCMEET runtime secrets and local state
+livekit_api_key.txt
+livekit_api_secret.txt
+proxy_header_secret.txt
+meeting_pin.txt
+runtime.json
+security_profile_selected.txt
+security.log
+
+# Logs and databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime folders
+_eocmeet_internal/data/
+_eocmeet_internal/runtime/
+_eocmeet_internal/logs/
+_eocmeet_internal/uploads/
+_eocmeet_internal/tmp/
+
+# Local environment
+.env
+.env.*
+.vscode/
+.idea/
+
+# Windows temp
+Thumbs.db
+Desktop.ini
